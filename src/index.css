@@ -1,13 +1,38 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.Header{
+    width: 1440px;
+    height: 732px;
+}
+.Header1{
+    background-color: #E7E7E7;
+}
+.Header2{
+    background-image: url("./img/photo1.svg");
+    width: 1441px;
+    height: 563px;
+}
+.text1{
+    width: 1217px;
+    justify-content: space-between;
+    display: flex;
+    padding-left: 112px;
+    padding-top: 445px;
+    align-items: center;
+}
+.Proof{
+    background-color: #FC7A1D;
+    width: 1440px;
+    height: 112px;
+}
+.logos{
+    width: 1216px;
+    justify-content: space-between;
+    display: flex;
+    padding-left: 112px;
+    padding-top: 40px;
+    align-items: center;
 }
