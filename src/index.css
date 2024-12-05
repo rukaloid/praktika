@@ -103,3 +103,40 @@ html, body {
     width: 1216px;
     height: 286px;
 }
+.product4all{
+    width: 1440px;
+    height: 694px;
+}
+.product4-1-4{
+    background-image: url("./img/women5.svg");
+    background-color: #E7E7E7;
+    width: 270px;
+    height: 420px;
+}
+.features1all{
+    width: 1440px;
+    height: 808px;
+}
+.features1-1a{
+    background-image: url('./img/flowers1.svg');
+    width: 596px;
+    height: 600px;
+}
+.features1-2-3{
+    width: 596px;
+    height: 600px;
+}
+.features1-2b{
+    background-image: url('./img/features1.svg');
+    width: 596px;
+    height: 288px;
+}
+.features1-3c{
+    background-image: url('./img/features2.svg');
+    width: 596px;
+    height: 288px;
+}
+.features2{
+    width: 1440px;
+    height: 168px;
+}
