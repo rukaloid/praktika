@@ -19,6 +19,12 @@ import women2 from "./img/women2.svg"
 import women3 from "./img/women3.svg"
 import women4 from "./img/women4.svg"
 import arr7 from "./img/arr7.svg"
+import log1 from "./img/log1.svg"
+import log2 from "./img/log2.svg"
+import log3 from "./img/log3.svg"
+import log4 from "./img/log4.svg"
+import floor1 from "./img/floor1.svg"
+
 
 function App() {
   return (
@@ -118,12 +124,12 @@ function App() {
             <img src={arr4} alt="" className="w-[13px] h-[13px] mt-[586px] ml-[25px]" />
           </div>
         </div>
-        <div className="Social-proof flex">
+        <div className="Social-proof flex ">
           <div className="proof1 items-center">
             <div className="text2 mt-[64px] items-center">
               <div className="w-[1217px] h-[49px] text-center text-[#111111] text-4xl font-extrabold font-['Inter'] leading-10">Hot off the press</div>
             </div>
-            <div className="text3 flex gap-[64px] justify-center items-center">
+            <div className="text3 flex gap-[64px] mt-[40px] justify-center items-center">
               <div className="t1">
                 <img src={logo7} alt="" />
                 <div className="h-32 flex-col justify-start items-start gap-6 inline-flex">
@@ -230,18 +236,91 @@ function App() {
           </div>
         </div>
         <div className="features2 items-center justify-center ">
-            <div className="dad1! w-[1216px] h-px opacity-10 border border-black"></div>
-          <div className="features2a ">
-            <div className="features2-1 flex mt-[32px] justify-center items-center">
+          <div className="dad1 w-[1216px] h-px flex justify-center items-center ml-[112px] mt-[24px] opacity-10 border border-black"></div>
+          <div className="features2a mt-[32px] gap-[122.67px] flex justify-center items-center">
+            <div className="features2-1 flex  justify-center items-center gap-[16px]">
               <div className="w-14 h-14 p-4 bg-white rounded-lg  shadow-inner border border-[#2f2b43]/10 justify-center items-center inline-flex">
                 <div className="grow shrink basis-0 self-stretch p-px justify-center items-center inline-flex">
                   <div className="grow shrink basis-0 self-stretch relative">
                   </div>
+                  <img src={log1} alt="" />
                 </div>
               </div>
               <div className="w-36 text-[#111111] text-base font-medium font-['Inter'] leading-tight">Premium stain resistant fabrics</div>
             </div>
+            <div className="features2-2 flex gap-[16px]">
+              <div className="w-14 h-14 px-4 py-4 bg-white rounded-lg shadow-inner border border-[#2f2b43]/10 justify-center items-center inline-flex">
+                <div className="grow shrink basis-0 self-stretch pl-px pt-px justify-center items-center inline-flex">
+                  <div className="w-6 h-6 relative">
+                  </div>
+                  <img src={log2} alt="" />
+                </div>
+              </div>
+              <div className="w-36 text-[#111111] text-base font-medium font-['Inter'] leading-tight">Free Express Shipping</div>
+            </div>
+            <div className="features2-3 flex gap-[16px]">
+              <div className="w-14 h-14 p-4 bg-white rounded-lg shadow-inner border border-[#2f2b43]/10 justify-center items-center inline-flex">
+                <div className="grow shrink basis-0 self-stretch p-px justify-center items-center inline-flex">
+                  <div className="w-6 h-6 relative">
+                  </div>
+                  <img src={log3} alt="" />
+                </div>
+              </div>
+              <div className="w-36 text-[#111111] text-base font-medium font-['Inter'] leading-tight">Free returns within 30 days</div>
+            </div>
+            <div className="features2-4 flex gap-[16px]">
+              <div className="w-14 h-14 p-4 bg-white rounded-lg shadow-inner border border-[#2f2b43]/10 justify-center items-center inline-flex">
+                <div className="grow shrink basis-0 self-stretch p-px justify-center items-center inline-flex">
+                  <div className="w-6 h-6 relative">
+                  </div>
+                  <img src={log4} alt="" />
+                </div>
+              </div>
+              <div className="w-36 text-[#111111] text-base font-medium font-['Inter'] leading-tight">Customers rate  us 4.8 / 5.0</div>
+            </div>
           </div>
+          <div className="dad1 w-[1216px] h-px flex justify-center items-center ml-[112px] mt-[32px] opacity-10 border border-black"></div>
+        </div>
+        <div className="miscellaneousall flex items-center justify-center">
+          <div className="miscellaneous1">
+            <img src={floor1} alt="" className="rounded-l-lg" />
+          </div>
+          <div className="table-1 pt-[64px] pl-[64px] flex flex-col gap-[32px]">
+            <div className="w-80 text-black text-3xl font-bold font-['Inter'] leading-10">Visit our popup shop</div>
+            <div className="w-44 text-black text-base font-medium font-['Inter'] leading-relaxed">Willemsparkweg 63 1071 GS Amsterdam The Netherlands</div>
+
+            <table className="text-black text-base flex flex-col gap-[20px] font-medium font-['Inter'] leading-relaxed">
+              <tr>
+                <td>Monday</td>
+                <td className="pl-[133px]">12.00 - 19.00</td>
+              </tr>
+              <tr>
+                <td>Tuesday</td>
+                <td className="pl-[130px]">10.00 - 19.00</td>
+              </tr>
+              <tr>
+                <td>Wednesday</td>
+                <td className="pl-[105px]">10.00 - 19.00</td>
+              </tr>
+              <tr>
+                <td>Thursday</td>
+                <td className="pl-[122px]">10.00 - 21.00</td>
+              </tr>
+              <tr>
+                <td>Friday</td>
+                <td className="pl-[147px]">10.00 - 19.00</td>
+              </tr>
+              <tr>
+                <td>Saturday</td>
+                <td className="pl-[126px]">10.00 - 18.00</td>
+              </tr>
+              <tr>
+                <td>Sunday</td>
+                <td className="pl-[137px]">12.00 - 19.00</td>
+              </tr>
+            </table>
+          </div>
+
         </div>
       </div>
 
@@ -250,5 +329,6 @@ function App() {
 
   );
 }
+
 
 export default App;

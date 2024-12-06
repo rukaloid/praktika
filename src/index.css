@@ -140,3 +140,20 @@ html, body {
     width: 1440px;
     height: 168px;
 }
+.miscellaneousall{
+    width: 1440px;
+    height: 738px;
+}
+.miscellaneous1{
+    width: 608px;
+    height: 610px;
+}
+.table-1{
+    width: 608px;
+    height: 610px;
+    border-collapse: separate;
+    border-spacing: 0 20px;
+}
+.table-1 td{
+    padding-right: 105px ;
+}
